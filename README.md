@@ -33,7 +33,7 @@ Used n8n to access Gmail inbox and filter by subject line.
 
 Downloaded attachments from filtered emails.
 
-📸 Screenshot: 📸 *Screenshot: Gmail Node Setup in n8n*  
+📸 Screenshot: 📸   <img src="">
 
 
 
