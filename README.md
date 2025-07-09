@@ -1,7 +1,11 @@
 # 📦 Supply Chain Analytics with AI
 
 This project showcases an automated data analytics workflow for supply chain operations using AI-powered tools and workflow automation. The solution leverages n8n for email integration and data extraction, Supabase for cloud-based PostgreSQL storage, and Quadratic AI for data analysis and KPI generation.
-🔗 View in Quadratic (Optional)
+
+## 🔗 View in Quadratic sheet : 
+
+ [Open Quadratic Sheet](https://app.quadratichq.com/file/182db7d6-d89d-4226-ad14-144b22a791a5)
+
 
 
 # 🧾 Overview
@@ -33,7 +37,11 @@ Used n8n to access Gmail inbox and filter by subject line.
 
 Downloaded attachments from filtered emails.
 
-📸 Screenshot: 📸   <img src="">
+## 📸 n8n Workflow: 📸   <img src="https://github.com/Attaulytics/Supply-chain-Analytics-with-n8n-AI/blob/main/n8n%20workflow%20diagram.png">
+
+## 📸 CSV to jason file: 📸   <img src="https://github.com/Attaulytics/Supply-chain-Analytics-with-n8n-AI/blob/main/convert%20csv%20to%20jason%20file.png">
+
+## 📸 Download Attachments: 📸 <img src="https://github.com/Attaulytics/Supply-chain-Analytics-with-n8n-AI/blob/main/Download%20Attachments%20with%20n8n%20automation.png">
 
 
 
@@ -48,7 +56,11 @@ Defined tables based on uploaded CSV schemas.
 
 Used n8n's PostgreSQL integration to upload data to Supabase.
 
-📸 Screenshot: Supabase Table Structure
+📸 Connect n8n with supabase: <img src="https://github.com/Attaulytics/Supply-chain-Analytics-with-n8n-AI/blob/main/connect%20and%20setup%20postgres%20with%20n8n.png">
+
+📸 Supabase Postgres Database Tables: <img src="https://github.com/Attaulytics/Supply-chain-Analytics-with-n8n-AI/blob/main/supabase%20psotgres%20database%20structure.png">
+
+
 
 
 # 🔗 3. Connect Supabase to Quadratic AI
@@ -57,7 +69,7 @@ Connected the Supabase database to Quadratic.
 
 Queried the uploaded tables directly inside the AI spreadsheet.
 
-📸 Screenshot: Data Connection in Quadratic
+📸 Data Connection in Quadratic  <img src="https://github.com/Attaulytics/Supply-chain-Analytics-with-n8n-AI/blob/main/quadratic%20connection.png">
 
 # ✨ 4. Quadratic AI Prompts Used
 
